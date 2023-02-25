@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navlist li a{
+    text-decoration: none !important;
+    color: rgb(243, 241, 241) !important;
+    margin-left: 1rem;
+}
+.logo a{
+    color: rgb(12, 137, 246) !important;
+}
+.navlist li a:hover{
+    color: rgb(237, 27, 27) !important;
+    transition: .4s;
+}
+
+
+.picclass{
+    object-fit: cover;
+    padding: 2px;
+    transition: all .45s ease;
+    
+}
+.container-picclass{
+    overflow: hidden;
+}
+.picclass:hover{
+    transform: scale(1.1);
+}
+
+.innerone ul li a{
+    text-decoration: none;
+    color: brown;
+    list-style: none;
+    line-height: 40px;
+}
+.innerone ul{
+    list-style: none;
+}
+.footer-list{
+    flex-direction: column !important;
+}
+.navbar{
+    align-items: start !important;
+   
+}
+.navfoot li a{
+    color: black !important;
+    padding-top: 1rem;
+}
+.navfootlast{
+    padding-top: .5rem !important;
+    color: black !important;
+}
+.footerlist li a{
+    color: rgb(82, 80, 80) !important;
+}
+.footerlist li a:hover{
+    color: rgb(237, 27, 27) !important;
+}
